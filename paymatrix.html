@@ -1,0 +1,176 @@
+<body>
+  <div class="header" id="myHeader">
+  
+
+  
+  <input type="image" src="https://lh3.googleusercontent.com/OV957C8FHzH7EFQzflGEXSF9S-7_VGA3r-crnP2r3fZNaqMyhg_crXTE9uVbLiVbCB6OSDh43hf0Rsp0tDIVvC9D5tDHWrb8v7pEjF4QJdWwhDVg46oYFNsY3ZgCl49q58huqKjBVw=w2400" onclick="location.href='https://paymatrix.in/home/index'" name="saveForm" class="btTxt submit" id="saveForm" />
+  <h1>Paymatrix   
+  <button onclick="location.href='https://paymatrix.in/home/benefits'" type="button">Benefits</button>
+  <div class="dropdown">
+    <button class="dropbtn">Services</button>
+      <div class="dropdown-content">
+      <a href="https://paymatrix.in/home/applyloan">EMI-free Deposit loans</a>
+      <a href="https://paymatrix.in/rental-agreement">Rent agreements</a>
+      <a href="https://paymatrix.in/home/screening">Tenant screeing</a>
+      <a href="https://paymatrix.in/renters-insurance">Renters insurace</a>
+      <a href="https://paymatrix.in/landlord-insurance">Landlord insurance</a> 
+      <a href="https://paymatrix.in/receipts">Rent Receipts</a>  
+      </div>
+  </div>
+  
+  
+  <div class="dropdown">
+    <button class="dropbtn" >Admin login</button>
+      <div class="dropdown-content">
+      <a href="https://workspace.paymatrix.in/login">Co-working spaces</a>
+      <a href="https://pg.paymatrix.in/login">Co-living spaces</a>
+      </div>
+  </div>
+  
+  <button onclick="location.href='https://paymatrix.in/auth/user/login'" type="button">Login</button>
+  <button onclick="location.href='https://paymatrix.in/auth/user/login'" type="button">Sign Up</button>
+</div>  
+</h1>
+    <h10>Benefits</h10>
+  
+  
+  <input type="image" src="https://lh3.googleusercontent.com/CaInrMXIRxYplZGqXo9FyhrYmgtOIfLv3kpKJZlnROW7P6Aa4f13nuwTUVXZmxqDhmjTXBKcbeysXhdyg9SF_urvjLl7-Sze9sCWvijGTkxbyFMTD-Q-DAFi0xJfOqw7RFnuXcgZJA=w2400" onclick="tenant()" name="saveForm1" class="btTxt submit" id="saveForm1" />
+  <input type="image" src="https://lh3.googleusercontent.com/VqyxJkcMcI4F5C4gd_NbX5xT0HNdbHbCY76XdIe3-JGw6LT1i2RBCKkPDlmgkP3st6su4qpJdCQQgw7aUKCLcC3It2ge45cxM6PXYIFVV7w_BeqPumfC-PnoMoFfqpvLMotMzdTdog=w2400" onclick="landlord()" name="saveForm2" class="btTxt submit" id="saveForm2" />
+   <div class="tenant" id="tenant">
+  <h2>Calculate Your Savings on our platform</h2>
+  <p>Paymatrix enables you to pay monthly property rent and rent advances the smarter way! As a tenant, you can now pay rent on credit, generate <a href="https://paymatrix.in/receipts">rent receipts </a> and <a href="https://paymatrix.in/rental-agreement">rent agreements </a> online and avail several related services, all at a single place.</p>
+  
+  <p>
+This means better management of cash flows and now you can postpone your rent payment for a while to spend on something even worthwhile.
+  </p>
+  <h3>Calculate</h3>
+  <h5>Monthly Rent Amount</h5>
+   <insert slider 1>
+    <div class="slidecontainer">
+  <input type="range" min="1000" max="100000" value="5000" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
+</div> 
+  
+  <h5>Mode of Payment</h5>
+        <form>
+          <input type="radio" id = "three" name="gender" value="male" onclick="showThree()" checked> Credit Card
+          <input type="radio" id = "two" name="gender" value="female" onclick="showTwo()" > Debit Card
+          <input type="radio" id = "one" name="gender" value="other" onclick="showOne()"  > Banking
+        </form>
+     <div class= "payment" id = "payment">
+       
+    <div class= "bold" id = "demo1"> <p>Credit free period:<span id="ddd"></span></p></div>
+    <div class= "bold" id = "demo2"><p>Card Rewards:<span id="rewards"></span></p>  </div>
+    <div class= "bold" id = "demo3"><p>Offers & Discounts:<span id="discounts"></span></p> </div>
+             
+    
+     
+     </div>
+  
+  <h5>Referrals per month</h5>
+    <p>Drag the slider to display the current value.</p>
+<insert slider 2>
+<div class="slidecontainer">
+  <input type="range" min="0" max="10" value="0" class="slider" id="myRange1">
+  <p>Value: <span id="referals"></span></p>
+</div>
+    
+</h5>
+  </div>
+  <div class="landlord" id="landlord">
+    <h2>Collect your rent on-time from your tenant</h2>
+
+<p>
+Paymatrix enables you to timely collect rent from your tenant by extending the option of paying rent on credit card. As a landlord or property manager, you can also issue  <a href="https://paymatrix.in/receipts">rent receipts </a> and <a href="https://paymatrix.in/home/screening">rent agreements </a> online, generate rent agreements, <a href="https://paymatrix.in/receipts">screen </a>  your potential tenants and manage multiple properties all at a click on your dashboard. All these mean hassle-free rent management and better service to your tenants!.
+</p>
+    
+      
+  </div>
+  <h3>Benefits</h3>
+     <table>
+  <tr>
+    <th></th>
+    <th>Conventional way</th>
+    <th>Paymatrix</th>
+  </tr>
+  <tr>
+    <td>Payment Mode</td>
+    <td>Cash/Net Banking</td>
+    <td>Net Banking/Credit card</td>
+  </tr>
+  <tr>
+    <td>Credit Option</td>
+    <td>NO</td>
+    <td>YES</td>
+  </tr>
+  <tr>
+    <td>Rent Receipts (For Tax exemption)	</td>
+    <td>NO</td>
+    <td>YES</td>
+  </tr>
+  <tr>
+    <td>Discounts and Rewards	</td>
+    <td>NO</td>
+    <td>YES</td>
+  </tr>
+  <tr>
+    <td>Rent Agreements	</td>
+    <td>YES</td>
+    <td>YES</td>
+  </tr>
+  <tr>
+    <td>Consolidation of Expenditure</td>
+    <td>NO</td>
+    <td>YES</td>
+  </tr>
+  <tr>
+    <td>Rent Advance Management</td>
+    <td>NO</td>
+    <td>YES</td>
+  </tr>
+  <tr>
+    <td>Build Credit history</td>
+    <td>NO</td>
+    <td>YES</td>
+  </tr>
+</table>
+  
+  
+  
+  
+  <h4>EXPLORE YOUR CREDIT CARD BENEFITS</h4>
+<div class = "explore" id = "explore">
+  <!-- You will not be able to see this text. -->
+<img src="https://lh3.googleusercontent.com/3Cxrkq9cHu-hY1Qa2AjgbYYZ0P_0DeVRybMfbMttEwtFfdijqbWxZABaLfBMgkhU1Bfv9C9V0UcsTuUvftpnuITW_OGgw6iaIdN-Gp0Xh4SLd8alKqLLSCdyhkTZLVTxtjQdVnKwnQ=w2400" alt="Image missing">
+<The left side section onlt>
+<div class = "left" id = "left">
+<form action="/action_page.php">
+  <input list="browsers" name="bank">
+  <datalist id="browsers">
+    <option value="American Express">
+    <option value="IndusInd">
+    <option value="State Bank of India">
+    <option value="HDFC">
+    <option value="AXIS">
+     <option value="CITI"> 
+     <option value="Standard Chartered"> 
+     <option value="HSBC"> 
+     <option value="ICICI"> 
+     <option value="RBL">   
+  </datalist>
+  
+    <input list="credit card" name = "credit card">
+    <datalist id="credit card">
+    <option value="HSBC Visa Platinum Card">
+    <option value="HSBC Gold Credit Card">
+    <option value="HSBC Gold Classic Credit Card">
+    <option value="HSBC Priemier Credit Card">
+  </datalist>
+  <input type="submit">
+</form>
+</div>
+</div>
+
+</body>
+<footer>Disclaimer: <br>
+*The above explanation is only for illustration purposes only and Paymatrix cannot be held responsible if the credit card provider updates or stops the promotion. Paymatrix may just advertise promotions of banks and other companies but in no way does it endorse any promotion or marketing material hosted by the partners. User discretion and diligence is hereby recommended to check the updated content with the partner directly for any further information or query on any promotion or dispute. Paymatrix can’t be held responsible for any disputes arising in this context. Further, by registering and availing the services on Paymatrix, users hereby acknowledge to have read all the terms of use and related disclaimers.</footer>
